@@ -211,7 +211,7 @@ class HonClimate(ClimateEntity):
     async def async_set_hvac_mode(self, hvac_mode: HVACMode) -> None:
         """Set new target hvac mode."""
         if hvac_mode == HVACMode.COOL:
-            await self._hon.async_set(self._mac, self._typeName,self.get_command({'machMode': ClimateHvacMode.HON_HVAC_COOL}))
+            await self._hon.async_set(self._mac, self._typeName, self.get_command({'machMode': ClimateHvacMode.HON_HVAC_COOL, 'onOffStatus': '1'}))
         elif hvac_mode == HVACMode.OFF:
             await self._hon.async_set(self._mac, self._typeName, json.loads('{"onOffStatus":"0"}'))
         elif hvac_mode == HVACMode.HEAT:
