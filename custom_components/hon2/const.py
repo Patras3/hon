@@ -32,7 +32,7 @@ PLATFORMS = [
     "select",
     "number" '''
 
-AUTH_API        = "https://account2.hon2-smarthome.com/SmartHome"
+AUTH_API        = "https://account2.hon-smarthome.com/SmartHome"
 API_URL         = "https://api-iot.he.services"
 APP_VERSION     = "2.0.10"
 OS_VERSION      = 31
