@@ -2,8 +2,8 @@
     "config": {
         "step": {
             "user": {
-                "title": "hOn",
-                "description": "Моля, въведете вашите данни за достъп до hOn",
+                "title": "hOn2",
+                "description": "Моля, въведете вашите данни за достъп до hOn2",
                 "data": {
                     "email": "Email Адрес",
                     "password": "Парола"

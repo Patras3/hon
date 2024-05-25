@@ -2,7 +2,7 @@
     "config": {
         "step": {
             "user": {
-                "description": "Please enter your hOn credentials",
+                "description": "Please enter your hOn2 credentials",
                 "data": {
                     "email": "Email Address",
                     "password": "Password"

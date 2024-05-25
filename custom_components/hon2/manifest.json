@@ -1,0 +1,10 @@
+{
+  "domain": "hon2",
+  "name": "hOn2",
+  "codeowners": ["@gvigroux","@MiguelAngelLV"],
+  "config_flow": true,
+  "documentation": "https://github.com/gvigroux/hon2",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/gvigroux/hon2/issues",
+  "version": "0.7.0"
+}

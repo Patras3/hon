@@ -2,8 +2,8 @@
     "config": {
         "step": {
             "user": {
-                "title": "Integracja chmurowa hOn",
-                "description": "Proszę wpisać swoje dane logowania do hOn",
+                "title": "Integracja chmurowa hOn2",
+                "description": "Proszę wpisać swoje dane logowania do hOn2",
                 "data": {
                     "email": "Adres e-mail",
                     "password": "Hasło"
